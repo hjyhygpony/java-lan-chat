@@ -1,0 +1,25 @@
+# Java build output
+build/
+out/
+*.class
+*.jar
+
+# Runtime user data
+data/*
+!data/.gitkeep
+received_files/*
+!received_files/.gitkeep
+
+# Editors
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.7z
+*.rar
